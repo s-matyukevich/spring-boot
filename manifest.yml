@@ -1,0 +1,6 @@
+applications:
+- name: test
+  path: target/spring-boot-1.0-SNAPSHOT.jar
+  memory: 512M
+  services:
+  - my-db
