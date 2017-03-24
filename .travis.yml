@@ -1,3 +1,4 @@
+language: java
 deploy:
   edge: true
   provider: cloudfoundry
