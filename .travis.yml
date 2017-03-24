@@ -1,0 +1,10 @@
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: s-matyukevich
+  password:
+    secure: noCiy/QWdjND+4HkBUgFNSx8Z/+eGr0A8izHb8SZt8PktvCcQw+7tfPDQEe/Gpa2i7B/c1hbEBz1l3iRbqvWylm4pPL9EzcALEbRsrhcBxwg0lPDWS43+2FutCUWQ4YICHXm0yxgV+Pz0QXsgBzwJci1k1BQdPyrRYecIwToL80k8hdUmV8zZoJv6+IMPIGBl8MOuHTOTqFLuY2Pd7GU3a6Aw2xQQPMvt3BACb8CB9+Uh3BOIx0zMXj8eMdMJyj+z1+/yFnMyXXHQC1bVJ20GNlkxyKe+vFDxncMH4O7YcJuCo5VggdwRDZzVP1x5wbddrK4azzIx+gmOR+7eOcNZycyOrGI4dxogwlcWL5zdz9ZibIhj21yI75O6fGL0wZPhgADMQy4xhTW7b3GMNlagUxdprvfnvt05JOWh6pcHPeAnOlKyoEu0LVDkRsRfYTdBd+7rLAQBf1ip58BRMn7QRIPxXln7jN9uQN/Lb8sWUYgLJmcBNJTSBrM8hU1Xpwv/gR2eASeWPiT43RA6SO44CNKMNLSuJ3Hehi2vdRoI4AAcNjxx2UNL091EJDLhQl1H8LzD0sJT4FEWs7jZMYwf+A0dr+m4kkzsZfILh8KAxZ5pkWCcDHolqw0qe7HGcIIfmegQPfXJ/ffUFj21B4m/YCZV4tfbpfDeeS9m6GGQdU=
+  api: https://api.staging.cf-training.net
+  organization: org-s-matyukevich
+  space: space-s-matyukevich
+  skip_ssl_validation: true
